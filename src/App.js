@@ -661,7 +661,7 @@ export default function App() {
         date: new Date().toLocaleDateString(),
       };
       setFaculty(prev=>prev.map(f=>f.id===selectedFacId?{...f,feedbacks:[...f.feedbacks,newFb]}:f));
-      setForm({ teaching:0,communication:0,knowledge:0,punctuality:0,engagement:0,internals:1,attendance:1,comment:"",student:"",subjectTaught:"" });
+      setForm({ teaching:0,communication:0,knowledge:0,punctuality:0,engagement:0,internals:0,attendance:0,comment:"",student:"",subjectTaught:"" });
       setSubmitted(true);
       showToast("✅ Feedback saved to database!");
       setTimeout(()=>setSubmitted(false), 1800);
