@@ -3,7 +3,7 @@ import { createClient } from "@supabase/supabase-js";
 
 // ─── SUPABASE CONFIG ──────────────────────────────────────────────────────────
 const SUPABASE_URL = "https://iukgeerobodzlhomxdgu.supabase.co";
-const SUPABASE_KEY = "sb_publishable_68xCFsDCLg-Q7DCB_svasw_40j3wX2Y";
+const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Iml1a2dlZXJvYm9kemxob214ZGd1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzM1MDk1NzQsImV4cCI6MjA4OTA4NTU3NH0.7aTF-5Z5DWdH9MZ2_JdC_53K6yu5Wz-LpJPj_1TCF00"
 const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
 
 // ─── SUBJECTS MASTER LIST ───────────────────────────────────────────────────
